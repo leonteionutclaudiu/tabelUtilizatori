@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tabel utilizatori</title>
+  </head>
+  <body>
+    <div class="listUtilizatori">
+      <h2 class="title">Lista utilizatori</h2>
+      <div class="searchBox">
+        <label class="search" for="search">Cauta: </label>
+        <input
+          class="searchInput"
+          type="text"
+          id="search"
+          name="search"
+          placeholder="nume utilizator"
+        />
+      </div>
+      <div class="tableBox">
+        <div class="table-responsive">
+          <table class="table">
+            <thead class="thead">
+              <tr class="tr">
+                <th class="th">Nume</th>
+                <th class="th">Prenume</th>
+                <th class="th">Email</th>
+                <th class="th">Telefon</th>
+                <th class="th">Companie</th>
+                <th class="th">Nr.Reg.Com.</th>
+                <th class="th">CUI</th>
+                <th class="th">Adresa</th>
+                <th class="th">Judet</th>
+                <th class="th">Tara</th>
+                <th class="th">Actiuni</th>
+              </tr>
+            </thead>
+            <tbody class="tbody">
+              <tr class="tr">
+                <td class="td">Popescu</td>
+                <td class="td">Ion</td>
+                <td class="td">popescu.ion@gmail.com</td>
+                <td class="td">0722333444</td>
+                <td class="td">TEST Inc.</td>
+                <td class="td">RO12345</td>
+                <td class="td">1234567</td>
+                <td class="td">Str. Libertatii nr. 1</td>
+                <td class="td">Bucuresti</td>
+                <td class="td">Romania</td>
+                <td class="td">
+                  <div class="btnsBox">
+                    <button class="modificaBtn">MODIFICA</button>
+                    <button class="stergeBtn">STERGE</button>
+                  </div>
+                </td>
+              </tr>
+              <tr class="tr">
+                <td class="td">Ionescu</td>
+                <td class="td">Maria</td>
+                <td class="td">maria.ionescu@yahoo.com</td>
+                <td class="td">0733444555</td>
+                <td class="td">XYZ SRL</td>
+                <td class="td">RO54321</td>
+                <td class="td">7654321</td>
+                <td class="td">Str. Primaverii nr. 10</td>
+                <td class="td">Cluj</td>
+                <td class="td">Romania</td>
+                <td class="td">
+                  <div class="btnsBox">
+                    <button class="modificaBtn">MODIFICA</button>
+                    <button class="stergeBtn">STERGE</button>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

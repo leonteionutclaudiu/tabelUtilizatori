@@ -1,0 +1,118 @@
+.listUtilizatori {
+  background-color: #eff3f6;
+  padding: 20px 40px;
+  min-height: 100vh;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.searchBox {
+  margin: 40px 0;
+}
+
+.searchInput {
+  padding: 3px 6px;
+}
+
+.th,
+.td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.th {
+  background-color: #fbfbfb;
+}
+
+.tbody .tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.modificaBtn {
+  padding: 6px 12px;
+  border: none;
+  color: white;
+  background-color: #037505;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.modificaBtn:hover {
+  background-color: #024403;
+}
+
+.stergeBtn {
+  padding: 6px 12px;
+  border: none;
+  color: white;
+  background-color: #810303;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.stergeBtn:hover {
+  background-color: #5b0202;
+}
+
+.tableBox {
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: white;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table-responsive::-webkit-scrollbar {
+  height: 10px;
+  background-color: #f2f2f2;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+  .listUtilizatori {
+    padding: 10px;
+  }
+
+  .table {
+    font-size: 12px;
+  }
+
+  .th,
+  .td {
+    padding: 4px;
+  }
+
+  .modificaBtn,
+  .stergeBtn {
+    padding: 2px 4px;
+    font-size: 12px;
+  }
+}
